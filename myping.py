@@ -54,7 +54,7 @@ def main(dest_name):
 
 if __name__ == "__main__":
     if len(sys.argv) <= 1:
-       print "Usage: %s <File Name>" % sys.argv[0]
+       print "Usage: %s <host Name>" % sys.argv[0]
        sys.exit(1)
 
     main (sys.argv[1])
